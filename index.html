@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Front end developer,css,html,javascript,bootstrap,jquery,grid system">
+    <title>Gitto George Thomas</title>
+    <!-- Bootstrap css link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="icon"
+        href="https://media-exp1.licdn.com/dms/image/C4E35AQEKffKL2YZkcQ/profile-framedphoto-shrink_400_400/0/1617875486812?e=1641751200&v=beta&t=FKI1jYB5WTggmRMuuR-jyE5F6qD5P7xFGVRNM_QCxZA"
+        type="image/gif" sizes="16x16">
+    <!-- External css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Font Family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Corinthia&family=Poppins:wght@300&family=Roboto:wght@700&family=Smooch&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <style>
+        body {
+            background-color: lightcyan;
+        }
+    </style>
+    <header class="bg-info">
+        <div class="row text-dark">
+            <div class="col-md-4 col-9 p-3 pl-5">
+                <!--ivide p em or rem value aanu-->
+                <h2 class="logo">PortFolio</h2>
+            </div>
+            <div class="col-md-4 col-3 my-auto">
+                <nav class="navbar navbar-expand-lg navbar-light">
+
+                    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav bartext">
+                            <li class="nav-item fontsizebar">
+                                <a class="nav-link text-white" href="#home-section">Home <span
+                                        class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#skills">Skills</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#education">Education</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#projects-section">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#contact">Contact Me</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="col-md-4 col-12 my-auto">
+                <div class="social_media" style="text-align: right;">
+                    <a target="_blank" class="btn btn-primary" style="background-color: #3b5998;"
+                        href="https://www.facebook.com/" role="button"><i class="fab fa-facebook-f"></i></a>
+                    <a target="_blank" class="btn btn-primary" style="background-color: #0082ca;"
+                        href="https://www.linkedin.com/in/gitto-george-thomas-aba1a120b/" role="button"><i
+                            class="fab fa-linkedin-in"></i></a>
+                    <a target="_blank" class="btn btn-primary" style="background-color: #ed302f;"
+                        href="https://studio.youtube.com/channel/UCHnYI0digelraGvxgTCU2CQ/videos/upload?filter=%5B%5D&sort=%7B%22columnType%22%3A%22date%22%2C%22sortOrder%22%3A%22DESCENDING%22%7D"
+                        role="button"><i class="fab fa-youtube"></i></a>
+                    <a target="_blank" class="btn btn-primary" style="background-color: #333333;"
+                        href="https://github.com/" role="button"><i class="fab fa-github"></i></a>
+                    <a target="_blank" class="btn btn-primary" style="background-color: #25d366;"
+                        href="https://www.whatsapp.com/" role="button"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="home-section" id="home-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h4 class="text-one pt-3">Hello,</h4><br>
+                    <h4 class="text-two">I'm Gitto George Thomas</h4><br>
+                    <h4 class="text-three">FrontEnd Developer</h4><br>
+                    <div class="button">
+                        <button class="hire-me"><a href="https://www.linkedin.com/in/gitto-george-thomas-aba1a120b/"
+                                style="text-decoration: none;">Hire Me </a></button>
+                    </div>
+                    <!-- <div class="embed-responsive embed-responsive-16by9 mt-5">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/gFMUEkNdhAs"
+                            allowfullscreen></iframe>
+                    </div>   -->
+                </div>
+                <div class="col-md-6 my-auto">
+                    <img src="Images/2-removebg-preview.png" alt="" class="img-fluid rounded-circle float-right">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section Start -->
+    <!-- We will make same Tag and class where we need to apply same Css -->
+    <section class="about" id="about">
+        <div class="content">
+            <div class="title" style="color: #0082ca;"><span>About Me</span></div>
+            <div class="about-details">
+                <div class="right">
+                    <!-- <img src="Images/e8cd3126-ef60-43a5-8bab-01e11435ca01.jpg" alt=""> -->
+                    <iframe width="500" height="315" src="https://www.youtube.com/embed/irtaecCqSJo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        
+                </div>
+                <div class="left">
+                    <div class="topic">Designing is my passion</div>
+                    <p>My name is <strong>Gitto George Thomas</strong> I'm a Front End Developer based in Cochin ☀️. I
+                        describe myself as a passionate developer who loves coding, open source, and the web platform
+                        ❤️.<br>I like to create and contribute to open source projects. That helps me to learn a ton of
+                        new
+                        stuff, grow as a developer and support other open source projects.<br>I'm also learning Back-End
+                        Development and looking forward to be a Full Stack Web Developer.</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- My Skill Section -->
+    <!-- We will make same Tag and class where we need to apply same Css -->
+    <section class="skills col-12" id="skills">
+        <div class="content">
+            <div class="title" style="color: #0082ca;"><span>My Skills</span></div>
+            <div class="skill-details">
+                <div class="left">
+                    <div class="topic">Skills Reflects Our Knowledge</div>
+                    <p>☀️Strong knowledge of web development tools and programming languages.</p>
+                    <p>☀️Proficient in coding languages such as HTML, CSS, JavaScript.
+                    </p>
+                </div>
+                <div class="boxes">
+                    <div class="box">
+                        <div class="topic">HTML</div>
+                        <div class="num">90%</div>
+                    </div>
+                    <div class="box">
+                        <div class="topic">CSS</div>
+                        <div class="num">70%</div>
+                    </div>
+                    <div class="box">
+                        <div class="topic">JavaScript</div>
+                        <div class="num">70%</div>
+                    </div>
+                    <div class="box">
+                        <div class="topic">Linux</div>
+                        <div class="num">80%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="p-5" id="education">
+        <div class="container">
+            <h1 class="text-center" style="color: #0082ca; text-decoration-line: underline;">My Education</h1>
+            <div class="row">
+                <div class="col-md-4 col-12 pt-2">
+                    <div class="card text-center p-3">
+                        <i class="fas fa-user-graduate display-1 text-info"></i>
+                        <div class="card-body">
+                            <h5 class="card-title">MCA : Master Of Computer Applications</h5>
+                            <p class="card-text">Rvs College Coimbatore</p>
+                            <p class="card-text">Bharathiar University</p>
+                            <p class="card-text">2021-2023</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 pt-2">
+                    <div class="card text-center p-3">
+                        <i class="fas fa-user-graduate display-1 text-info"></i>
+                        <div class="card-body">
+                            <h5 class="card-title">BCA : Bachelor Of Computer Applications</h5>
+                            <p class="card-text">MES College Erumely</p>
+                            <p class="card-text">Mahatma Gandhi University, Kerala</p>
+                            <p class="card-text">2017-2020</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 pt-2">
+                    <div class="card text-center p-3">
+                        <i class="fas fa-server display-1 text-info"></i>
+                        <div class="card-body">
+                            <h5 class="card-title">CCNA : Networking Course From Cisco</h5>
+                            <p class="card-text">Inet Institutes Cochin</p>
+                            <p class="card-text">2020-2021</p><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-md-4 pt-2">
+                    <div class="card text-center p-3">
+                        <i class="fab fa-redhat display-1 text-info"></i>
+                        <div class="card-body">
+                            <h5 class="card-title">RHCSA : Linux Red Hat Certified System Administrator</h5>
+                            <p class="card-text">Inet Institutes Cochin</p>
+                            <p class="card-text">2020-2021</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 pt-2">
+                    <div class="card text-center p-3">
+                        <i class="fab fa-microsoft display-1 text-info"></i>
+                        <div class="card-body">
+                            <h5 class="card-title">MCSE : Microsoft Certified Solutions Expert</h5>
+                            <p class="card-text">Inet Institutes Cochin</p><br>
+                            <p class="card-text">2020-2021</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="p-4" id="projects-section">
+        <div class="container">
+            <h1 class="text-center p-4" style="color: #0082ca; text-decoration-line: underline;">Projects</h1>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card text-center mt-3">
+                        <a href="https://gittogeorgethomas.github.io/Simulation-Ball-Movement-Project-1/"><img
+                                src="Images/GitHub_Logo.png" class="card-img-top" alt=""></a>
+                        <div class="card-body">
+                            <h5 class="card-title projectheadingcolor">Project 1</h5>
+                            <p class="card-text projectheadingcolor">Simulation ball movement</p>
+                            <p class="card-text projectheadingcolor">An introduction to animation, collision detection,
+                                object-oriented programming, and some physics.</p>
+                            <a href="https://github.com/GITTOGEORGETHOMAS/Simulation-Ball-Movement-Project-1" i
+                                class="fas fa-external-link-alt" style="text-decoration: none;"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card text-center mt-3">
+                        <a href="https://gittogeorgethomas.github.io/Randomwalk-Project-2/"><img
+                                src="Images/GitHub_Logo.png" class="card-img-top" alt=""></a>
+
+                        <div class="card-body">
+                            <h5 class="card-title projectheadingcolor">Project 2</h5>
+                            <p class="card-text projectheadingcolor">Random walk Assignment</p>
+                            <p class="card-text projectheadingcolor">This Project create three balls in a defined area
+                                of the screen. Then, moves the three balls randomly in that area.</p>
+
+                            <a href="https://github.com/GITTOGEORGETHOMAS/Randomwalk-Project-2" i
+                                class="fas fa-external-link-alt" style="text-decoration: none;"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card text-center mt-3">
+                        <a href="https://gittogeorgethomas.github.io/PacMan-Simulation-Project-3/"><img
+                                src="Images/GitHub_Logo.png" class="card-img-top" alt=""></a>
+
+                        <div class="card-body">
+                            <h5 class="card-title projectheadingcolor">Project 3</h5>
+                            <p class="card-text projectheadingcolor">Pacman coding assignment</p>
+                            <p class="card-text projectheadingcolor">JavaScript Game with HTML.<br>A super simple
+                                walkthourgh to coding Pac-Man in JavaScript, and CSS.</p>
+                            <a href="https://github.com/GITTOGEORGETHOMAS/PacMan-Simulation-Project-3" i
+                                class="fas fa-external-link-alt" style="text-decoration: none;"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card text-center mt-3">
+                        <a href="https://gittogeorgethomas.github.io/Walk-Boston-Data-Coding-Project4/"><img
+                                src="Images/GitHub_Logo.png" class="card-img-top" alt=""></a>
+
+                        <div class="card-body">
+                            <h5 class="card-title projectheadingcolor">Project 4</h5>
+                            <p class="card-text projectheadingcolor">Walk boston data</p>
+                            <p class="card-text projectheadingcolor">In this Project, a set of JSON data which has been
+                                converted to an array representing Boston employee salaries.</p>
+                            <a href="https://github.com/GITTOGEORGETHOMAS/Walk-Boston-Data-Coding-Project4" i
+                                class="fas fa-external-link-alt" style="text-decoration: none;"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card text-center mt-3">
+                        <a href="https://gittogeorgethomas.github.io/Project-5-Most-Common-Words/"><img src="Images/GitHub_Logo.png" class="card-img-top" alt=""></a>
+
+                        <div class="card-body">
+                            <h5 class="card-title projectheadingcolor">Project 5</h5>
+                            <p class="card-text projectheadingcolor">Find the most common words</p>
+                            <p class="card-text projectheadingcolor">This Project is to print to console the first three
+                                most common words that appear in a given text.</p>
+                            <a href="https://github.com/GITTOGEORGETHOMAS/Project-5-Most-Common-Words" i class="fas fa-external-link-alt" style="text-decoration: none;"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card text-center mt-3">
+                        <a href="https://gittogeorgethomas.github.io/Pac_Man-Factory-Project6/"><img
+                                src="Images/GitHub_Logo.png" class="card-img-top" alt=""></a>
+
+                        <div class="card-body">
+                            <h5 class="card-title projectheadingcolor">Project 6</h5>
+                            <p class="card-text projectheadingcolor">Pacmen factory assignment</p>
+                            <p class="card-text projectheadingcolor">This Project creates PacMen on demand. These PacMen
+                                are made move across the page.</p>
+                            <a href="https://github.com/GITTOGEORGETHOMAS/Pac_Man-Factory-Project6" i
+                                class="fas fa-external-link-alt" style="text-decoration: none;"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card text-center mt-3">
+                        <a href="https://gittogeorgethomas.github.io/Eye-Movement-Project-7/"><img
+                                src="Images/GitHub_Logo.png" class="card-img-top" alt=""></a>
+
+                        <div class="card-body">
+                            <h5 class="card-title projectheadingcolor">Project 7</h5>
+                            <p class="card-text projectheadingcolor">Eye movement assignment</p>
+                            <p class="card-text projectheadingcolor">This Project is to adding a second "eye" element
+                                and have that element follow the mouse position on the screen using the
+                                mouse events.</p>
+                            <a href="https://github.com/GITTOGEORGETHOMAS/Eye-Movement-Project-7" i
+                                class="fas fa-external-link-alt" style="text-decoration: none;"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card text-center mt-3">
+                        <a href="https://gittogeorgethomas.github.io/Map-Animation-Project-8/"><img
+                                src="Images/GitHub_Logo.png" class="card-img-top" alt=""></a>
+
+                        <div class="card-body">
+                            <h5 class="card-title projectheadingcolor">Project 8</h5>
+                            <p class="card-text projectheadingcolor">Map animation assignment</p>
+                            <p class="card-text projectheadingcolor">This Project creates map on a web page using
+                                mapbox. mapbox is an open-source platform that allows you to create and
+                                display maps on a web page.</p>
+                            <a href="https://github.com/GITTOGEORGETHOMAS/Map-Animation-Project-8" i
+                                class="fas fa-external-link-alt" style="text-decoration: none;"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card text-center mt-3">
+                        <a href="https://gittogeorgethomas.github.io/-Towers-of-Hanoi-Project-9/"><img
+                                src="Images/GitHub_Logo.png" class="card-img-top" alt=""></a>
+
+                        <div class="card-body">
+                            <h5 class="card-title projectheadingcolor">Project 9</h5>
+                            <p class="card-text projectheadingcolor">Towers-of-hanoi</p>
+                            <p class="card-text projectheadingcolor">The objective of the puzzle is to move the entire stack to another rod,obeying the following simple rules:Only one disk can be move.</p>
+                            <a href="https://github.com/GITTOGEORGETHOMAS/-Towers-of-Hanoi-Project-9" i
+                                class="fas fa-external-link-alt" style="text-decoration: none;"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <!-- Contact ME section Start -->
+    <section class="contact" id="contact">
+        <div class="content col-md-12 col-12">
+            <div class="title" style="color: #0082ca;"><span>Contact Me</span></div>
+            <div class="text">
+                <div class="topic">Have Any Project?</div>
+                <p class="gettouch">Get In Touch</p>
+                <div class="button">
+                    <button><a href="#contact_inputs" style="text-decoration: none;">Let's Chat</a></button>
+                </div>
+            </div>
+
+            <div class="contactstep1" id="">
+                <form action="" class="contact_form">
+                    <div class="contact_inputs">
+                        <input type="text" placeholder="Name" class="contact_inputs" id="contact_inputs">
+                        <input type="mail" placeholder="Email" class="contact_inputs">
+                    </div>
+                    <input type="text" placeholder="Project" class="contact_inputs">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Message" class="contact_inputs"></textarea>
+                    <input type="submit" value="Send Message" class="button contact_button">
+
+                </form>
+
+            </div>
+            <div class="contact_info">
+                <h3 class="contact_subtitle">Call Me</h3>
+                <span class="contact_text">+91 9846369248 <br> +91 6282834045</span>
+            </div>
+            <div class="contact_info">
+                <h3 class="contact_subtitle">Email</h3>
+                <span class="contact_text">gittothomas8@gmail.com</span>
+            </div>
+            <div class="contact_info">
+                <h3 class="contact_subtitle">Linkedin</h3>
+                <span class="contact_text">www.linkedin.com/in/gitto-george-thomas-aba1a120b</span>
+            </div>
+            <div class="contact_info">
+                <h3 class="contact_subtitle">Location</h3>
+                <span class="contact_text">Cochin, Kerala</span>
+            </div>
+            
+            
+        </div>
+    </section>
+    
+      <!-- Footer -->
+      <footer>
+          
+      
+
+
+      <div>
+        <input type="checkbox" class="checkbox" id="chk" />
+        <label class="label" for="chk">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+            <div class="ball"></div>
+        </label>
+    </div>
+    
+    <!-- SOCIAL PANEL HTML -->
+    <div class="social-panel-container">
+        <div class="social-panel">
+            <p>Created by<i class="fa fa-heart"></i> 
+                <a target="_blank" href="#">Gitto George Thomas</a></p>
+            <button class="close-btn"><i class="fas fa-times"></i></button>
+            <h4>Contact Me On</h4>
+            <ul>
+                <li>
+                    <a href="https://studio.youtube.com/channel/UCHnYI0digelraGvxgTCU2CQ/videos/upload?filter=%5B%5D&sort=%7B%22columnType%22%3A%22date%22%2C%22sortOrder%22%3A%22DESCENDING%22%7D" target="_blank">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://tinyurl.com/26pezsnt" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://tinyurl.com/yckj4rck" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/"  target="_blank">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.whatsapp.com/" target="_blank">
+                        <i class="fab fa-whatsapp-square"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <button class="floating-btn">
+        Get in Touch
+    </button>
+
+<script src="https://kit.fontawesome.com/a52679d231.js" crossorigin="anonymous"></script> 
+    </footer>
+         <script src="js/script.js"></script>
+    <!-- Jquery Javascript file-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <!-- Popper Javascipt file -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap javascriptfile -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5e62edf8d8.js" crossorigin="anonymous"></script>
+
+    
+</body>
+
+</html>
